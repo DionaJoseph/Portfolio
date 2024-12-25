@@ -177,3 +177,94 @@ background-color: crimson;
     color: white;
     cursor: pointer;
 }
+
+/* Media Query for Tablets and Mobile Devices */
+@media (max-width: 768px) {
+    body, html {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    /* Navbar adjustments for mobile/tablet */
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .navbar li {
+        font-size: 16px; /* Adjust navbar items font size */
+    }
+
+    /* Intro Section */
+    .intro {
+        background-size: cover;
+        height: 80vh;
+        padding: 20px;
+    }
+
+    /* Content Section */
+    .content1 {
+        padding: 60px 5%;
+    }
+
+    .content1 h1 {
+        font-size: 2.5rem; /* Reduce heading size for small screens */
+    }
+
+    /* Content2 Section */
+    .content2 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 5%;
+    }
+
+    .profile img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    /* Services Section */
+    .services {
+        padding: 40px 5%;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .servetype {
+        width: 100%;
+        padding: 20px;
+        border-radius: 12px;
+        background-color: rgb(81, 81, 81);
+        color: white;
+    }
+
+    /* Contact Section */
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .name-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .forms input, .forms textarea {
+        width: 100%;
+    }
+
+    .msgbutton button {
+        width: 100%;
+        padding: 15px;
+        background-color: crimson;
+        color: white;
+        cursor: pointer;
+    }
+}
+
